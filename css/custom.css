@@ -1,0 +1,265 @@
+header div.top{
+	margin-left: 1px;
+	background-color: #EEEEEE;
+}
+header{
+	margin-top: 10px;
+}
+header div.logos a i{
+	text-decoration: none;
+	color: #333333;
+}
+div.brandmenu img{
+	margin-top: 5%;
+	width: 40%;
+}
+span.button2, span.button1{
+	text-align: right;
+	margin-right: 3%;
+}
+div.brandmenu{
+	margin-left: 2%;
+}
+.brand{
+	margin-left: 2%;
+}
+div.menu{
+	justify-content: center;
+	width: 65%;
+}
+div.numeris{
+	text-align: right;
+}
+.news{
+	margin-top: 4%;
+	margin-bottom: 10%;
+}
+.new2 h2{
+	background-color: #666666;
+}
+.news h3{
+	margin-left: 3%;
+	margin-bottom: 25px;
+	width: 100%;
+}
+div.numeris h4{
+	font-size: 17px;
+	margin-right: 35px;
+}
+div.logos{
+	margin-left: 10px;
+}
+header button{
+	border-radius: 0 !important;
+}
+.carousel-indicators{
+	justify-content: flex-end;
+}
+div section h4{
+	background-color: #666666;
+	width: 50%;
+}
+.naujienos section{
+	font-size: 22px;
+	margin-bottom: 5%;
+}
+.naujienos{
+	margin-left: 3%;
+	background-color: #EEEEEE;
+}
+.naujienos2{
+	margin-right:3%;
+	margin-left: 3%;
+}
+.naujienos h3{
+	margin-bottom: 2%;
+}
+.naujienos2 h3{
+	font-size: 25px;
+}
+.nft, .nft2{
+	background-color: #EEEEEE;
+	padding-left: 0;
+}
+.nft2{
+	height: 100%;
+}
+.links ul.nft li a, .links2 ul.nft2 li a{
+	text-decoration: none;
+	color: black;
+}
+.links ul.nft, .links2 ul.nft2{
+	list-style: none;
+}
+.links h3, .links2 h3{
+	margin-bottom: 5%;
+	background-color: #EEEEEE;
+}
+.links ul.nft, .links2 ul.nft2{
+	margin-bottom: 5%;
+	line-height: 35px;
+}
+.links h3, .links2 h3{
+	margin-left: 0;
+}
+.links h3 i, .links2 h3 i{
+	margin-right: 13px;
+}
+.new1{
+	margin-bottom: 0%;
+}
+.nft i, .nft2 i{
+	margin-right: 15px;
+}
+footer{
+	width: 95%;
+	margin: auto;
+}
+.social ul, .users ul, .information ul{
+	padding-left: 0;
+}
+.users{
+	line-height: 30px;
+	letter-spacing: 15px;
+}
+.users ul{
+	margin-left: 20%;
+}
+.social ul li, .information ul li, .users ul li{
+	list-style: none;
+}
+.social ul li a, .users ul li a, .information ul li a{
+	text-decoration: none;
+}
+.fa-hand-point-left{
+	margin-left: 5%;
+}
+.clickfb{
+	font-size: 25px;
+}
+footer{
+	background-color: #EEEEEE;
+	width: 100%;
+	border-top: 10px #666666 solid;
+}
+footer div.footer{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1%;
+}
+.request textarea{
+	resize: none;
+}
+div.submit button{
+	margin-top: 25px;
+	text-align: center;
+	margin-left: 25px;
+	border-radius: 0;
+	width: 125px;
+	height: 35px;
+}
+footer h4{
+	font-size: 20px;
+	text-style: bold;
+}
+@media (max-width: 786px){
+	.news{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		margin-right: 1px;
+	}
+	.users{
+		width: 180px;
+	}
+	.users ul{
+		margin-left: 0;
+	}
+	.information{
+		width: 150px;
+		margin-left: 5px;
+	}
+	.new1 h4, .new2 h4{
+		width: 100%;
+	}
+	.naujienos{
+		width: 95%;
+		margin-bottom: 30px;
+		margin-right: 0px !important;
+	}
+	.menu{
+		flex-direction: column;
+	}
+	.news h3{
+		margin-left: 7%;
+	}
+	.naujienos2 h3{
+		margin-left: 0;
+	}
+	.message{
+		flex-direction: column !important;
+	}
+	.name input{
+		margin-left: 0 !important;
+	}
+	.name button{
+		margin-top: 5px !important;
+		margin-left: 0 !important;
+	}
+	.name{
+		margin-top: 5px;
+		margin-left: -2px !important;
+	}
+	.footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.naujienos p{
+		padding: 0 20px;
+	}
+	footer{
+		height: 700px;
+	}
+	.social, .information{
+		text-align: center;
+
+	}
+	.request{
+		display: flex;
+		align-items: center;
+	}
+	.message{
+		display: flex;
+		align-items: center;
+	}
+	.inputs{
+		text-align: center;
+	}
+}
+.message{
+	display: flex;
+	flex-direction: row;
+}
+.message textarea{
+	width: 270px;
+}
+.message .name{
+	width: 250px;
+	height: 40px;
+	margin-left: 10px;
+}
+.request h4 i{
+	margin-left: 40px;
+}
+div.name button{
+	margin-left: 100px;
+	margin-top: 25px;
+	width: 100px;
+	height: 33px;
+	border-radius: 0;
+}
+.naujienos p{
+	padding: 0 20px;
+}
